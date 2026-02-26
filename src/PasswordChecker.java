@@ -12,7 +12,7 @@ public class PasswordChecker {
         if(password.matches(".*[0-9].*")) score++;
         if(password.matches(".*[!@#$%^&*()].*")) score++;
 
-        if(score <=1) return "WEAK PASSWORD";
+        if(score <=1) return "WEAK";
         else if(score ==2 || score==3) return "MEDIUM";
         else return "STRONG";
     }
