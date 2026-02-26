@@ -40,6 +40,6 @@ public class PasswordChecker {
         if(isBreached(pass))
             System.out.println("Caution!!!! This password is BREACHED!");
         else
-            System.out.println("Safe password :>)");
+            System.out.println("Safe password :)");
     }
 }
