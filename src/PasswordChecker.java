@@ -32,7 +32,7 @@ public class PasswordChecker {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter password:");
+        System.out.println("Enter a password to check for strength:");
         String pass = sc.nextLine();
 
         System.out.println("Strength: " + checkStrength(pass));
