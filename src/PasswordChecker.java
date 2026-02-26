@@ -35,7 +35,7 @@ public class PasswordChecker {
         System.out.println("Enter a password to check for strength:");
         String pass = sc.nextLine();
 
-        System.out.println("Strength: " + checkStrength(pass));
+        System.out.println("Password Strength: " + checkStrength(pass));
 
         if(isBreached(pass))
             System.out.println("Caution!!!! This password is BREACHED!");
